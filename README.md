@@ -22,7 +22,9 @@ Our future plans include creating a more robust ML model to better detect the sc
 **Instructions**
 
 **Step 1:** Run the scamzeroed.ipynb(may need to update the API keys for scam database and anvil) notebook in colab and keep the session open.
+
 **Step 2(optional):** You may skip training the model by adding 'model.pkl' and 'count_vector.pkl' in colab session.
+
 **Step 3:** The web app is live at scamzeroed.anvil.app
 
 **Demo**
