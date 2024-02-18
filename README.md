@@ -18,3 +18,6 @@ We learned how to use rake-ntlk and sklearn to determine scam weights to our key
 
 **What's next for ScamZeroed?**
 Our future plans include creating a more robust ML model to better detect the scams, as due to time constraints we were limted to detect based solely on individual keywords rather than the whole context. Additionally, we plan. Additionally, we plan on modifying our web app into a Rest API, which would allow social media apps to utilize it to detect and flag potential scam posts.
+
+**Demo**
+https://drive.google.com/file/d/1TrMXZsiYJKmKhulC92uFbQ3RU4_Ic5c0/view?usp=sharing
