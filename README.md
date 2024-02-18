@@ -2,7 +2,7 @@
 After seeing so many seniors in Canada being targets of scams, and the rise of the Canadian Anti-Spam Legislation, we wanted to build an app that informs the senior population of potential scams around them, especially those texts and URLs that pop up in social media feeds.
 
 **What it does?**
-Users input a body of text (with or without an URL) through our frontend, and keywords and any URLs are extracted from the text. Then, the keywords are then passed into a ML model built on top of the Naive Bayes classifier. This model scans the keywords, and takes the average score of the keywords to detect whether the input text is potentially a scam or not.
+Users input a body of text (with or without a URL) through our frontend, and keywords and any URLs are extracted from the text. Then, the keywords are then passed into a ML model built on top of the Naive Bayes classifier. This model scans the keywords, and takes the average score of the keywords to detect whether the input text is potentially a scam or not.
 
 **How we built it?**
 We used Anvil to build our frontend, and Python's pandas, numpy, and sklearn to build and train our ML model. Additionally, rake-ntlk was used to extract the keywords from the input text, with regular expressions used to extract the URLs.
@@ -19,6 +19,11 @@ We learned how to use rake-ntlk and sklearn to determine scam weights to our key
 **What's next for ScamZeroed?**
 Our future plans include creating a more robust ML model to better detect the scams, as due to time constraints we were limted to detect based solely on individual keywords rather than the whole context. Additionally, we plan. Additionally, we plan on modifying our web app into a Rest API, which would allow social media apps to utilize it to detect and flag potential scam posts.
 
+**Instructions**
+
+**Step 1:** Run the scamzeroed.ipynb(may need to update the API keys for scam database and anvil) notebook in colab and keep the session open.
+**Step 2(optional):** You may skip training the model by adding 'model.pkl' and 'count_vector.pkl' in colab session.
+**Step 3:** The web app is live at scamzeroed.anvil.app
+
 **Demo**
-https://drive.google.com/file/d/1TrMXZsiYJKmKhulC92uFbQ3RU4_Ic5c0/view?usp=sharing
 https://youtu.be/DnZAK1xdmDU
