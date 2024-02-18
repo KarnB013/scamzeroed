@@ -21,3 +21,4 @@ Our future plans include creating a more robust ML model to better detect the sc
 
 **Demo**
 https://drive.google.com/file/d/1TrMXZsiYJKmKhulC92uFbQ3RU4_Ic5c0/view?usp=sharing
+https://youtu.be/DnZAK1xdmDU
