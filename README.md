@@ -26,7 +26,7 @@ We learned how to use rake-ntlk and sklearn to determine scam weights to our key
 
 Our future plans include creating a more robust ML model to better detect the scams, as due to time constraints we were limted to detect based solely on individual keywords rather than the whole context. Additionally, we plan. Additionally, we plan on modifying our web app into a Rest API, which would allow social media apps to utilize it to detect and flag potential scam posts.
 
-**Instructions**
+**Instructions:**
 
 **Step 1:** Run the scamzeroed.ipynb(may need to update the API keys for scam database and anvil) notebook in colab and keep the session open.
 
@@ -34,6 +34,6 @@ Our future plans include creating a more robust ML model to better detect the sc
 
 **Step 3:** The web app is live at scamzeroed.anvil.app
 
-**Demo**
+**Demo:**
 
 https://youtu.be/DnZAK1xdmDU
